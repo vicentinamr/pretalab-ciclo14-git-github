@@ -1,0 +1,35 @@
+# Comandos de Configuração e Início
+1. git init
+O que faz: Transforma a pasta em que você está em um repositório Git. É o primeiro comando que você usa em um novo projeto.
+2. git clone <URL>
+O que faz: Cria uma cópia local de um repositório remoto (como no GitHub).
+# Comandos para Gerenciar Alterações
+1. git status
+O que faz: Mostra o estado atual do seu repositório, incluindo arquivos modificados, arquivos que precisam ser adicionados e qual branch você está.
+2. git add <arquivo> ou git add .
+O que faz: Adiciona arquivos modificados ou novos à área de staging. Use git add . para adicionar todos os arquivos do diretório atual.
+3. git commit -m "mensagem"
+O que faz: Salva as alterações da área de staging no histórico do projeto.
+# Comandos para Branches
+1. git branch
+O que faz: Lista todas as branches do repositório e mostra a branch atual.
+2. git branch <nome-da-branch>
+O que faz: Cria uma nova branch, mas não muda para ela.
+3. git checkout <nome-da-branch>
+O que faz: Move você para a branch especificada.
+4. git checkout -b <nome-da-branch>
+O que faz: Cria uma branch e já muda para ela.
+# Comandos para Sincronizar com o Repositório Remoto (GitHub)
+1. git remote add origin <URL>
+O que faz: Conecta seu repositório local a um remoto no GitHub.
+2. git push -u origin <nome-da-branch>
+O que faz: Envia commits locais para o remoto. -u define o upstream.
+3. git pull
+O que faz: Baixa e mescla alterações do remoto.
+4. git fetch
+O que faz: Baixa informações do remoto sem mesclar alterações.
+# Comandos para Unir o Código
+1. git merge <nome-da-branch>
+O que faz: Mescla commits de uma branch na branch atual.
+2. git rebase <nome-da-branch>
+O que faz: Move commits de uma branch para o final de outra, criando histórico linear.
